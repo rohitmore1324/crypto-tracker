@@ -1,0 +1,47 @@
+.tableContainer {
+  overflow-x: auto;
+  margin: 20px;
+}
+
+.cryptoTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Arial", sans-serif;
+}
+
+.cryptoTable th,
+.cryptoTable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cryptoTable th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.assetName {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.symbol {
+  color: #6c757d;
+  font-size: 0.9em;
+}
+
+.positive {
+  color: #28a745;
+}
+
+.negative {
+  color: #dc3545;
+}
+
+@media (max-width: 768px) {
+  .cryptoTable {
+    font-size: 0.85rem;
+  }
+}
